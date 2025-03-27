@@ -1,0 +1,9 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.liquibase.org/xml/ns/dbchangelog" location="$USER_HOME$/.IntelliJIdea2018.3/system/extResources/32b10bb8_dbchangelog-3.1.xsd" />
+    <resource url="http://www.liquibase.org/xml/ns/dbchangelog-ext" location="$USER_HOME$/.IntelliJIdea2018.3/system/extResources/99f6323_dbchangelog-ext.xsd" />
+    <ignored-resource url="http://www.puppycrawl.com/dtds/configuration_1_1.dtd" />
+    <ignored-resource url="http://www.puppycrawl.com/dtds/configuration_1_2.dtd" />
+    <ignored-resource url="http://www.puppycrawl.com/dtds/configuration_1_3.dtd" />
+  </component>
+</application>
