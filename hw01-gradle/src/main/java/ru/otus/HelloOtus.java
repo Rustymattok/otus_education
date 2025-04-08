@@ -8,12 +8,11 @@ import com.google.common.cache.CacheBuilder;
 
 public class HelloOtus {
     public static void main(String... args) {
-        System.out.println("Hello Otus");
-//        Cache<String, student> cache = CacheBuilder.newBuilder().build();
-//        cache.put("first", new student(40, "Vladimir", "Makarov"));
-//        var person = cache.getIfPresent("first");
-//        System.out.println(person);
+        Cache<String, student> cache = CacheBuilder.newBuilder().build();
+        cache.put("first", new student(40, "Vladimir", "Makarov"));
+        var person = cache.getIfPresent("first");
+        System.out.println(person);
     }
 
-//    private record student(int age, String name, String surname) {}
+    record student(int age, String name, String surname) {}
 }
