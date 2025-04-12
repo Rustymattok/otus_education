@@ -1,6 +1,6 @@
 rootProject.name = "otusJava"
 include("hw01-gradle")
-
+include("L10-byteCodes")
 pluginManagement {
     val dependencyManagement: String by settings
     val springframeworkBoot: String by settings
